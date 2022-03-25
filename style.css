@@ -7,6 +7,7 @@ body {
   display: flex;
   min-height: 100vh;
   margin:0;
+  font-family: 'Open Sans', sans-serif;
 }
 .section{
   position: relative;
@@ -23,6 +24,61 @@ body {
   min-height: 100vh;
 }
 
+.header {
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 50px;
+	}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 50%;
+}
+
+.images img {
+	width: auto!important;
+}
+
+#form label {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#form input[type=text] {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#form input[type=submit] {
+    height: 70px;
+	width: 100%;
+    //background-color: #3bc36c;
+	//background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
+	background: #3bc36c url("img/hand.png") no-repeat right 50px center;
+	//padding-right: 25px;
+	color: #fff;
+	font-size: 25px;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 7px;
+    border-radius: 7px; 
+	border-bottom: 5px solid #36aa60
+}
+
+.files {
+	font-size: 12px;
+	color: #808080;
+	margin-top: 10px;
+	text-align: center;
+}
+
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked){
   position: absolute;
@@ -31,7 +87,6 @@ body {
 .modal-btn:checked + label,
 .modal-btn:not(:checked) + label{
   position: relative;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 2;
@@ -83,10 +138,10 @@ body {
   text-align: center;
   line-height: 30px;
   font-size: 18px;
-  background-color: #ffeba7;
-  color: #102770;
-  font-family: 'unicons';
-  content: '\eac6'; 
+  background-color: #ff0000;
+  color: #fff;
+  //font-family: 'unicons';
+  content: 'X'; 
   box-shadow: 0 12px 25px 0 rgba(16,39,112,.25);
   transition: all 200ms linear;
   opacity: 0;
@@ -133,14 +188,14 @@ body {
 .modal-wrap {
   position: relative;
   display: block;
-  width: 100%;
-  max-width: 400px;
+  width: 910px;
+  height: 550px;
   margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 4px;
+  !margin-top: 20px;
+  !margin-bottom: 20px;
+  border-radius: 27px;
   overflow: hidden;
-  padding-bottom: 20px;
+  padding: 50px;
   background-color: #fff;
     -ms-flex-item-align: center;
     align-self: center;
