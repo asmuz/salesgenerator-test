@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<meta charset="utf-8" />
 	<title>Тестовое задание</title>
 	<link rel="stylesheet" href="/style.css" />
 	<script src="/script.js"></script>
-	<script type="text/javascript">
-	</script>
 </head>
-
 <body>
 	<div class="section full-height">
 		<input class="modal-btn" type="checkbox" id="modal-btn" name="modal-btn" />
@@ -32,5 +28,4 @@
 		</div>
 	</div>
 </body>
-
 </html>
