@@ -1,3 +1,3 @@
-# salesgenerator-test
+# Тестовое задание "Генератор продаж"
 
 http://amo.asmuz.ru/
